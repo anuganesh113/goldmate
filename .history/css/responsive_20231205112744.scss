@@ -1,0 +1,377 @@
+@media (max-width: 1600px) {
+  #home-page {
+    .hero-section {
+      height: 120vh;
+    }
+    .collection-section {
+      .container {
+        .collection-item {
+          height: 500px;
+          .row {
+            .text-section {
+              h1 {
+                font-size: 26px;
+              }
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .login__text-section {
+    padding: 60px 60px 0px 60px;
+  }
+  #home-page {
+    .collection-section {
+      .container {
+        .collection-item {
+          height: 400px;
+        }
+      }
+    }
+    .subscribe-section {
+      h1 {
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .navigation {
+    .navbar {
+      .navbar-collapse {
+        .close-btn {
+          display: block;
+        }
+      }
+    }
+  }
+  #home-page {
+    .hero-section {
+      padding: 70px 5%;
+    }
+    .showcase-section {
+      .text-section {
+        .heading-section {
+          h1 {
+            font-size: 38px;
+          }
+        }
+      }
+    }
+  }
+  #filter-page {
+    .hero-section {
+      .text-section {
+        padding: 100px 0 0 120px;
+        h1 {
+          font-size: 42px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .common-heading-primary {
+    font-size: 32px;
+  }
+  .common-subheading {
+    font-size: 16px;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .login-section {
+    .left {
+      img {
+        height: auto;
+      }
+    }
+    .right {
+      .login__text-section {
+        padding: 40px 40px 28px 40px;
+        .login-btn {
+          padding: 12px 8px;
+        }
+        .logo {
+          width: 100px;
+        }
+        .primary-text {
+          h3 {
+            font-size: 26px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+        .secondary-text {
+          font-size: 14px;
+        }
+        input {
+          font-size: 14px;
+        }
+        .forgot-password-section {
+          font-size: 14px;
+          a {
+            font-size: 14px;
+          }
+        }
+        button,
+        .final-text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  #home-page {
+    .hero-section {
+      padding: 40px 4%;
+      .text-section {
+        h2 {
+          font-size: 42px;
+        }
+        p,
+        .shop-now {
+          font-size: 16px;
+        }
+      }
+      .img-section {
+        img {
+          max-width: 300px;
+        }
+      }
+      .scroll-down {
+        right: 0;
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .video-background {
+      height: 600px;
+      .content-wrapper {
+        .content {
+          padding: 320px 0 80px 0px;
+          p {
+            font-size: 16px;
+          }
+          .buttons {
+            .shop-now-btn {
+              font-size: 16px;
+            }
+            .preview-btn {
+              font-size: 16px;
+              img {
+                height: 17px;
+                margin-top: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .showcase-section {
+      .text-section {
+        .heading-section {
+          h1 {
+            font-size: 32px;
+          }
+        }
+        .content-section {
+          padding-top: 60px;
+        }
+      }
+      .img-section {
+        justify-content: center;
+        margin-top: 30px;
+        img {
+          width: 200px;
+        }
+      }
+    }
+    .collection-section {
+      .heading {
+        p {
+          font-size: 16px;
+        }
+      }
+      .container {
+        .collection-item {
+          .row {
+            img {
+              min-height: 300px;
+            }
+          }
+        }
+      }
+    }
+    .subscribe-section {
+      padding: 60px 0 60px;
+      h1 {
+        font-size: 21px;
+      }
+    }
+  }
+  #filter-page {
+    .hero-section {
+      height: 520px;
+      padding: 70px 5% 0;
+      overflow: hidden;
+      .text-section {
+        padding: 0;
+        h1 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+      .img-container {
+        top: 6px;
+        margin-left: 0;
+        img {
+          max-width: 420px;
+        }
+      }
+    }
+    .filter-section {
+      .filter-heading {
+        background-color: #121212;
+        border-radius: 5px;
+        color: #fff;
+        padding: 0 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          background-image: url('../images/icons/right-arrow.png');
+          filter: contrast(0) brightness(10);
+          transform: rotate(90deg);
+          top: 15px;
+          right: 10px;
+          width: 25px;
+          height: 25px;
+          font-size: 21px;
+        }
+      }
+      .filter-accordion {
+        display: none;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) !important;
+        .accordion-item {
+          .accordion-button {
+            padding: 10px;
+          }
+          .accordion-collapse {
+            padding: 10px;
+          }
+        }
+      }
+      .search-and-sort-section {
+        .sort-view {
+          .item {
+            .form-select {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .pagination-section {
+        padding: 30px 0 60px;
+      }
+    }
+  }
+  footer {
+    .nav-list {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #home-page {
+    .hero-section {
+      .text-section {
+        h2 {
+          font-size: 34px;
+        }
+        p,
+        .shop-now {
+          font-size: 15px;
+        }
+      }
+      .img-section {
+        img {
+          max-width: 250px;
+        }
+      }
+    }
+    .collection-section {
+      //   .heading {
+      //     p {
+      //       font-size: 16px;
+      //     }
+      //   }
+      .container {
+        .collection-item {
+          .row {
+            .text-section {
+              position: static;
+              bottom: 40px;
+              left: 40px;
+              z-index: 1;
+              padding: 60px 25px 0;
+              h1 {
+                font-size: 23px;
+              }
+              p {
+                font-size: 14px;
+              }
+            }
+            img {
+              min-height: 170px;
+            }
+          }
+          .row {
+            .text-section {
+            }
+          }
+        }
+      }
+    }
+  }
+  #filter-page {
+    .hero-section {
+      height: 520px;
+      padding: 70px 5% 0;
+      .text-section {
+        padding: 0;
+        h1 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+      .img-container {
+        top: 0px;
+        margin-left: -30px;
+        img {
+          max-width: 380px;
+        }
+      }
+    }
+  }
+}

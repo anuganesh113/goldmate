@@ -1,0 +1,240 @@
+/* Global Classes */
+
+.login-btn {
+  border-radius: 80px;
+  background: #fee13d;
+  color: #121212;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 30px;
+  border: none;
+  outline: none;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+  border: none;
+}
+
+/* Login Page Starts */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+@font-face {
+  font-family: CabinetGrotesk;
+  src: url("../fonts/CabinetGrotesk/CabinetGrotesk-Variable.woff2");
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url("../fonts/Satoshi/Satoshi-Variable.woff2");
+}
+
+.login-section .container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.login-section {
+  height: 100vh;
+}
+
+.login-section .left img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.login-section .login__img-section {
+  height: 100vh; /* background-image: url("../images/login-bg.png"); */
+}
+
+.login-section .row {
+  max-width: 100%;
+}
+
+.login__text-section {
+  background: #121212;
+  padding: 60px 80px 0px 140px;
+  height: 100%;
+  font-family: Satoshi;
+  color: #fff;
+}
+
+.login__text-section .primary-text {
+  /* color: #fff; */
+  margin: 40px 0 20px;
+}
+
+.login__text-section .primary-text h3 {
+  font-size: 32px;
+  font-family: CabinetGrotesk;
+  font-weight: 700;
+}
+
+.login__text-section .primary-text p {
+  color: #dddddd;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login__text-section .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.login__text-section .secondary-text {
+  font-family: Satoshi;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.login__text-section .password-input {
+  position: relative;
+}
+
+.login__text-section .password-input .eye-btn {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 5px;
+  cursor: pointer;
+}
+
+.login__text-section input {
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(145, 158, 171, 0.08);
+  color: #dddddddd;
+  padding: 25px 15px;
+}
+
+.login__text-section input:focus {
+  background-color: rgba(145, 158, 171, 0.08);
+  color: #848b92;
+  border: 1px solid #454343;
+  box-shadow: none;
+}
+
+.login__text-section .forgot-password-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__text-section a {
+  color: #fff;
+}
+
+.login__text-section a:hover {
+  text-decoration: none;
+  color: #fee13d;
+}
+
+.login__text-section .login-btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 0;
+}
+
+.login__text-section .login-btn:hover {
+  background-color: transparent;
+  transition: 0.2s ease-in-out;
+  border: 1px solid #fee13d;
+  color: #fee13d;
+}
+
+.login__text-section .final-text {
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* Login Page Ends */
+
+/* Home Page Starts */
+.navigation {
+  background: #121212;
+  padding: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #999999;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #fff;
+  font-weight: 700;
+}
+
+.hero-section {
+  background: #121212;
+}
+
+.hero-section .text-section {
+  text-align: center;
+}
+
+.hero-section .text-section h2 {
+  color: #fff;
+  text-align: center;
+  font-family: CabinetGrotesk;
+  font-size: 66px;
+  font-weight: 700;
+}
+
+.hero-section .text-section p {
+  color: #ddd;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px 0 20px;
+}
+
+.hero-section .text-section .shop-now {
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #fee13d;
+  position: relative;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+
+.hero-section .text-section .shop-now::before {
+  content: "";
+  position: absolute;
+  top: 37%;
+  left: -40%;
+  background: #fee13d;
+  height: 3px;
+  width: 32px;
+}
+
+.hero-section .text-section .shop-now::after {
+  content: "";
+  position: absolute;
+  top: 37%;
+  right: -40%;
+  background: #fee13d;
+  height: 3px;
+  width: 32px;
+}
+
+/* Home Page Ends */

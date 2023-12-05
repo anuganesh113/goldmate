@@ -1,0 +1,260 @@
+@media (max-width: 1600px) {
+  #home-page .hero-section {
+    height: 120vh;
+  }
+  #home-page .collection-section .container .collection-item {
+    height: 500px;
+  }
+  #home-page .collection-section .container .collection-item .row .text-section h1 {
+    font-size: 26px;
+  }
+  #home-page .collection-section .container .collection-item .row .text-section p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .login__text-section {
+    padding: 60px 60px 0px 60px;
+  }
+  #home-page .collection-section .container .collection-item {
+    height: 400px;
+  }
+  #home-page .subscribe-section h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 991px) {
+  .navigation .navbar .navbar-collapse .close-btn {
+    display: block;
+  }
+  #home-page .hero-section {
+    padding: 70px 5%;
+  }
+  #home-page .showcase-section .text-section .heading-section h1 {
+    font-size: 38px;
+  }
+  #filter-page .hero-section .text-section {
+    padding: 100px 0 0 120px;
+  }
+  #filter-page .hero-section .text-section h1 {
+    font-size: 42px;
+  }
+  #filter-page .hero-section .text-section p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .common-heading-primary {
+    font-size: 32px;
+  }
+  .common-subheading {
+    font-size: 16px;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .login-section .left img {
+    height: auto;
+  }
+  .login-section .right .login__text-section {
+    padding: 40px 40px 28px 40px;
+  }
+  .login-section .right .login__text-section .login-btn {
+    padding: 12px 8px;
+  }
+  .login-section .right .login__text-section .logo {
+    width: 100px;
+  }
+  .login-section .right .login__text-section .primary-text h3 {
+    font-size: 26px;
+  }
+  .login-section .right .login__text-section .primary-text p {
+    font-size: 14px;
+  }
+  .login-section .right .login__text-section .secondary-text {
+    font-size: 14px;
+  }
+  .login-section .right .login__text-section input {
+    font-size: 14px;
+  }
+  .login-section .right .login__text-section .forgot-password-section {
+    font-size: 14px;
+  }
+  .login-section .right .login__text-section .forgot-password-section a {
+    font-size: 14px;
+  }
+  .login-section .right .login__text-section button,
+  .login-section .right .login__text-section .final-text {
+    font-size: 14px;
+  }
+  #home-page .hero-section {
+    padding: 40px 4%;
+  }
+  #home-page .hero-section .text-section h2 {
+    font-size: 42px;
+  }
+  #home-page .hero-section .text-section p,
+  #home-page .hero-section .text-section .shop-now {
+    font-size: 16px;
+  }
+  #home-page .hero-section .img-section img {
+    max-width: 300px;
+  }
+  #home-page .hero-section .scroll-down {
+    right: 0;
+  }
+  #home-page .hero-section .scroll-down p {
+    font-size: 14px;
+  }
+  #home-page .video-background {
+    height: 600px;
+  }
+  #home-page .video-background .content-wrapper .content {
+    padding: 320px 0 80px 0px;
+  }
+  #home-page .video-background .content-wrapper .content p {
+    font-size: 16px;
+  }
+  #home-page .video-background .content-wrapper .content .buttons .shop-now-btn {
+    font-size: 16px;
+  }
+  #home-page .video-background .content-wrapper .content .buttons .preview-btn {
+    font-size: 16px;
+  }
+  #home-page .video-background .content-wrapper .content .buttons .preview-btn img {
+    height: 17px;
+    margin-top: 3px;
+  }
+  #home-page .showcase-section .text-section .heading-section h1 {
+    font-size: 32px;
+  }
+  #home-page .showcase-section .text-section .content-section {
+    padding-top: 60px;
+  }
+  #home-page .showcase-section .img-section {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #home-page .showcase-section .img-section img {
+    width: 200px;
+  }
+  #home-page .collection-section .heading p {
+    font-size: 16px;
+  }
+  #home-page .collection-section .container .collection-item .row img {
+    min-height: 300px;
+  }
+  #home-page .subscribe-section {
+    padding: 60px 0 60px;
+  }
+  #home-page .subscribe-section h1 {
+    font-size: 21px;
+  }
+  #filter-page .hero-section {
+    height: 520px;
+    padding: 70px 5% 0;
+    overflow: hidden;
+  }
+  #filter-page .hero-section .text-section {
+    padding: 0;
+  }
+  #filter-page .hero-section .text-section h1 {
+    font-size: 30px;
+  }
+  #filter-page .hero-section .text-section p {
+    font-size: 14px;
+  }
+  #filter-page .hero-section .img-container {
+    top: 6px;
+    margin-left: 0;
+  }
+  #filter-page .hero-section .img-container img {
+    max-width: 420px;
+  }
+  #filter-page .filter-section .filter-heading {
+    background-color: #121212;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  #filter-page .filter-section .filter-heading::after {
+    content: "";
+    position: absolute;
+    background-image: url("../images/icons/right-arrow.png");
+    filter: contrast(0) brightness(10);
+    transform: rotate(90deg);
+    top: 15px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    font-size: 21px;
+  }
+  #filter-page .filter-section .filter-accordion {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) !important;
+  }
+  #filter-page .filter-section .filter-accordion .accordion-item .accordion-button {
+    padding: 10px;
+  }
+  #filter-page .filter-section .filter-accordion .accordion-item .accordion-collapse {
+    padding: 10px;
+  }
+  #filter-page .filter-section .search-and-sort-section .sort-view .item .form-select {
+    width: 100%;
+  }
+  #filter-page .filter-section .pagination-section {
+    padding: 30px 0 60px;
+  }
+  footer .nav-list {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #home-page .hero-section .text-section h2 {
+    font-size: 34px;
+  }
+  #home-page .hero-section .text-section p,
+  #home-page .hero-section .text-section .shop-now {
+    font-size: 15px;
+  }
+  #home-page .hero-section .img-section img {
+    max-width: 250px;
+  }
+  #home-page .collection-section .container .collection-item .row .text-section {
+    position: static;
+    bottom: 40px;
+    left: 40px;
+    z-index: 1;
+    padding: 60px 25px 0;
+  }
+  #home-page .collection-section .container .collection-item .row .text-section h1 {
+    font-size: 23px;
+  }
+  #home-page .collection-section .container .collection-item .row .text-section p {
+    font-size: 14px;
+  }
+  #home-page .collection-section .container .collection-item .row img {
+    min-height: 170px;
+  }
+  #filter-page .hero-section {
+    height: 520px;
+    padding: 70px 5% 0;
+  }
+  #filter-page .hero-section .text-section {
+    padding: 0;
+  }
+  #filter-page .hero-section .text-section h1 {
+    font-size: 30px;
+  }
+  #filter-page .hero-section .text-section p {
+    font-size: 14px;
+  }
+  #filter-page .hero-section .img-container {
+    top: 0px;
+    margin-left: -30px;
+  }
+  #filter-page .hero-section .img-container img {
+    max-width: 380px;
+  }
+}/*# sourceMappingURL=responsive_20231205104426.css.map */
