@@ -1,6 +1,7 @@
 # goldmate
 
 Project Title: Goldmate E-Commerce 
+
 Welcome to Goldmate E-Commerce! This project is a web application built using HTML, CSS, and JavaScript. Follow the instructions below to view the project locally on your machine.
 
 Prerequisites
