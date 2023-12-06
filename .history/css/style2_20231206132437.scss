@@ -124,8 +124,6 @@ button {
               width: 18px;
               height: 18px;
               margin-top: 3px;
-              accent-color: black;
-              mix-blend-mode: multiply;
             }
             label {
               color: $black;
@@ -211,10 +209,6 @@ button {
             color: #718096;
           }
         }
-      }
-      .img-container {
-        display: flex;
-        justify-content: center;
       }
       .name {
         color: $black;
@@ -438,15 +432,15 @@ button {
   .navbar {
     .navbar-toggler {
       .navbar-toggler-icon {
-        // &.changeImage {
-        //   background-image: url('../images/icons/close.png');
-        //   width: 24px;
-        //   height: 24px;
-        // }
+        &.changeImage {
+          background-image: url('../images/icons/close.png');
+        }
+        // background-image: none;
+        position: relative;
       }
       &:focus {
+        border: none;
         outline: none;
-        box-shadow: none;
       }
     }
     .navbar-collapse {
@@ -699,7 +693,6 @@ button {
 
   .showcase-section {
     background-color: #edf2f7;
-    overflow: hidden;
     .text-section {
       .heading-section {
         h1 {

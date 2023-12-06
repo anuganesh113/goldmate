@@ -63,18 +63,18 @@ AOS.init();
 const navbarCloseBtn = document.querySelector('.navbar-collapse .close-btn');
 const navbarCollapse = document.querySelector('.navbar-collapse');
 
-// const navbarToggler = document.querySelector('.navbar-toggler-icon');
+const navbarToggler = document.querySelector('.navbar-toggler-icon');
 
-// navbarToggler.addEventListener('click', () => {
-// 	// navbarToggler.classList.toggle('changeImage');
+navbarToggler.addEventListener('click', () => {
+	navbarToggler.classList.toggle('changeImage');
 
-// 	let imageURL = 'images/icons/close.png'; // Replace with the path to your image
+	let imageURL = 'images/icons/'; // Replace with the path to your image
 
-//             // Update the background image property
-//             navbarToggler.style.backgroundImage = 'url(' + imageURL + ')';
-// }
+            // Update the background image property
+            element.style.backgroundImage = 'url(' + imageURL + ')';
+}
 
-// )
+)
 
 navbarCloseBtn.addEventListener('click', () => {
 		navbarCollapse.classList.toggle('show');

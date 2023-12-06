@@ -63,7 +63,7 @@ AOS.init();
 const navbarCloseBtn = document.querySelector('.navbar-collapse .close-btn');
 const navbarCollapse = document.querySelector('.navbar-collapse');
 
-// const navbarToggler = document.querySelector('.navbar-toggler-icon');
+const navbarToggler = document.querySelector('.navbar-toggler-icon');
 
 // navbarToggler.addEventListener('click', () => {
 // 	// navbarToggler.classList.toggle('changeImage');

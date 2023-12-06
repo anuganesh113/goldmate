@@ -438,11 +438,11 @@ button {
   .navbar {
     .navbar-toggler {
       .navbar-toggler-icon {
-        // &.changeImage {
-        //   background-image: url('../images/icons/close.png');
-        //   width: 24px;
-        //   height: 24px;
-        // }
+        &.changeImage {
+          background-image: url('../images/icons/close.png');
+          width: 24px;
+          height: 24px;
+        }
       }
       &:focus {
         outline: none;
@@ -699,7 +699,6 @@ button {
 
   .showcase-section {
     background-color: #edf2f7;
-    overflow: hidden;
     .text-section {
       .heading-section {
         h1 {

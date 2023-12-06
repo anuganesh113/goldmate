@@ -201,9 +201,6 @@
   #filter-page .filter-section .filter-accordion .accordion-item .accordion-collapse {
     padding: 10px;
   }
-  #filter-page .filter-section .filter-accordion.show {
-    display: block;
-  }
   #filter-page .filter-section .search-and-sort-section .sort-view .item .form-select {
     width: 100%;
   }
@@ -261,4 +258,4 @@
   #filter-page .hero-section .img-container img {
     max-width: 380px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive_20231205112744.css.map */

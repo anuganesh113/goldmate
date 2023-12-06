@@ -67,7 +67,6 @@ button {
   font-size: 20px;
   font-weight: 700;
   border-bottom: 1px solid #dedede;
-  cursor: pointer;
 }
 .filter-section .filter-accordion {
   display: block;
@@ -108,8 +107,6 @@ button {
   width: 18px;
   height: 18px;
   margin-top: 3px;
-  accent-color: black;
-  mix-blend-mode: multiply;
 }
 .filter-section .filter-accordion .accordion-item .accordion-body ul li label {
   color: #121212;
@@ -188,10 +185,6 @@ button {
 .filter-section .watch-list-section .watch-list-item .top-section .like-btn i {
   font-size: 22px;
   color: #718096;
-}
-.filter-section .watch-list-section .watch-list-item .img-container {
-  display: flex;
-  justify-content: center;
 }
 .filter-section .watch-list-section .watch-list-item .name {
   color: #121212;
@@ -394,10 +387,6 @@ button:focus {
   background: #121212;
   padding: 10px;
 }
-.navigation .navbar .navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
-}
 .navigation .navbar .navbar-collapse.show {
   background: #4f4f4f;
   position: fixed;
@@ -405,7 +394,16 @@ button:focus {
   width: 100%;
   min-height: 100vh;
   bottom: 0;
-  top: 80px;
+}
+.navigation .navbar .navbar-collapse .close-btn {
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  z-index: 1;
+  display: none;
 }
 .navigation .navbar .navbar-collapse .row {
   width: 100%;
@@ -614,7 +612,6 @@ button:focus {
 }
 #home-page .showcase-section {
   background-color: #edf2f7;
-  overflow: hidden;
 }
 #home-page .showcase-section .text-section .heading-section h1 {
   color: #121212;
@@ -822,4 +819,4 @@ footer .container .right-section .nav-list ul li {
 footer .container .right-section .nav-list ul li:hover {
   transform: translateX(5px);
   transition: 0.3s ease;
-}/*# sourceMappingURL=style2.css.map */
+}/*# sourceMappingURL=style2_20231205112741.css.map */

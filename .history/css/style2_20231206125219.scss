@@ -124,8 +124,6 @@ button {
               width: 18px;
               height: 18px;
               margin-top: 3px;
-              accent-color: black;
-              mix-blend-mode: multiply;
             }
             label {
               color: $black;
@@ -211,10 +209,6 @@ button {
             color: #718096;
           }
         }
-      }
-      .img-container {
-        display: flex;
-        justify-content: center;
       }
       .name {
         color: $black;
@@ -438,15 +432,12 @@ button {
   .navbar {
     .navbar-toggler {
       .navbar-toggler-icon {
-        // &.changeImage {
-        //   background-image: url('../images/icons/close.png');
-        //   width: 24px;
-        //   height: 24px;
-        // }
-      }
-      &:focus {
-        outline: none;
-        box-shadow: none;
+        background-image: none;
+        span {
+          background: red;
+          width: 30px;
+          height: 5px;
+        }
       }
     }
     .navbar-collapse {
@@ -459,16 +450,16 @@ button {
         bottom: 0;
         top: 80px;
       }
-      //   .close-btn {
-      //     cursor: pointer;
-      //     font-size: 24px;
-      //     color: white;
-      //     position: absolute;
-      //     top: 5px;
-      //     right: 10px;
-      //     z-index: 1;
-      //     display: none;
-      //   }
+      .close-btn {
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        z-index: 1;
+        display: none;
+      }
       .row {
         width: 100%;
         .navbar-nav {
@@ -699,7 +690,6 @@ button {
 
   .showcase-section {
     background-color: #edf2f7;
-    overflow: hidden;
     .text-section {
       .heading-section {
         h1 {
